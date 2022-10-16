@@ -1,0 +1,20 @@
+.centered {
+  justify-content: center;
+  align-items: center;
+}
+#centerText {
+  padding-Top: max(5vh, 20px);
+}
+.chatFeed {
+  border-width: 2px;
+  border-color: black;
+  border-radius: 10px;
+  border-style: solid;
+}
+.inline {
+  display: flex;
+  flex-direction: row;
+}
+#user{
+  color: blue;
+}

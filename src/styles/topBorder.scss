@@ -1,0 +1,66 @@
+$buttonsColor: rgb(106,106,226);
+$darkAccent: rgb(18, 12, 30);
+h3 {
+  margin: 40px 0 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+a {
+  color: #42b983;
+}
+#logIn {
+  background-color: $buttonsColor;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  margin-right: 5px;
+  height: 35px;
+  width: 80px;
+  border-radius: 10px;
+}
+.titleMenu {
+  margin-top: 10px;
+  width: 33.333vw;
+}
+#logInDiv {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+#titleDiv {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.titleFont {
+  color: aquamarine;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: large;
+  letter-spacing: 2px;
+}
+.textRight {
+  text-align: right;
+}
+.menu {
+  background-color: $darkAccent;
+}
+.navBar {
+  background-color: $darkAccent;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 10px;
+}
+a { text-decoration: none; }

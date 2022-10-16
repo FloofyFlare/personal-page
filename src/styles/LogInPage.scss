@@ -1,0 +1,52 @@
+$image1: "src/assets";
+.welcome {
+  display: block;
+  background-color:aqua;
+  padding-top: 1px;
+}
+.statement {
+  background-image: url('~@/assets/pexels-monstera-5384623.jpg');
+  background-size: contain;
+  background-size: cover;
+  width: 50vw;
+  height: 30vh;
+  color: pink;
+  resize: both;
+}
+#togetherImage {
+  width: min(30vw, 560px);
+  height: auto;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+.largeFont {
+  color: rgb(14, 162, 242);
+  font-size: xx-large;
+}
+.mediumFont {
+  color: rgb(14, 162, 242);
+  font-size: large;
+}
+.divRows {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  div {
+    margin-top: 10px;
+    width: 50vw;
+  }
+}
+.centered {
+  justify-content: center;
+  align-items: center;
+}
+#centerText {
+  padding-Top: max(5vh, 20px);
+}
+.logInLabel {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+

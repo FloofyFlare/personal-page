@@ -1,0 +1,77 @@
+$image1: "src/assets";
+$darkBlue: rgb(110, 96, 139);
+$lightBlue: rgb(97, 150, 224);
+.welcome {
+  display: block;
+  background-color:aqua;
+  padding-top: 1px;
+}
+.statement {
+  background-image: url('~@/assets/pexels-monstera-5384623.jpg');
+  background-size: contain;
+  background-size: cover;
+  width: 50vw;
+  height: 30vh;
+  color: pink;
+  resize: both;
+}
+#togetherImage {
+  width: min(30vw, 560px);
+  height: auto;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+.largeFont {
+  font-size: xx-large;
+}
+* {
+  color: aqua;
+}
+.alt-text-color {
+  color: aquamarine;
+}
+.mediumFont {
+  font-size: large;
+}
+.divRows {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  div {
+    margin-top: 10px;
+    width: 50vw;
+  }
+}
+.darkBackground {
+  background: $darkBlue;
+}
+.lightBackground {
+  background: $lightBlue;
+}
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(124% + 1.3px);
+  height: 76px;
+}
+.wave .lightBackground {
+    fill: $lightBlue;
+}
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 70vh;
+  padding:100px 20vw
+}
