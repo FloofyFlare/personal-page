@@ -1,5 +1,5 @@
-$buttonsColor: rgb(106,106,226);
-$darkAccent: rgb(18, 12, 30);
+$actionColor: black;
+$borderColor: #FF865E;
 h3 {
   margin: 40px 0 0;
 }
@@ -15,11 +15,11 @@ h1 {
   font-family: "Courier New", Courier, monospace;
 }
 a {
-  color: #42b983;
+  color: $actionColor;
 }
 #logIn {
-  background-color: $buttonsColor;
-  color: white;
+  background-color: $actionColor;
+  color: #FEF9EF;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,7 +44,7 @@ a {
   justify-content: center;
 }
 .titleFont {
-  color: aquamarine;
+  color: $actionColor;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: large;
   letter-spacing: 2px;
@@ -53,10 +53,10 @@ a {
   text-align: right;
 }
 .menu {
-  background-color: $darkAccent;
+  background-color: $borderColor;
 }
 .navBar {
-  background-color: $darkAccent;
+  background-color: $borderColor;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;

@@ -1,6 +1,6 @@
 $image1: "src/assets";
-$darkBlue: rgb(110, 96, 139);
-$lightBlue: rgb(97, 150, 224);
+$darkBlue: #A2D2FF;
+$lightBlue: #FEF9EF;
 .welcome {
   display: block;
   background-color:aqua;
@@ -25,10 +25,10 @@ $lightBlue: rgb(97, 150, 224);
   font-size: xx-large;
 }
 * {
-  color: aqua;
+  color: rgb(218, 161, 82);
 }
 .alt-text-color {
-  color: aquamarine;
+  color: #FF865E;
 }
 .largeFont + p {
   font-size: large;
@@ -68,6 +68,7 @@ $lightBlue: rgb(97, 150, 224);
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
+  padding-bottom: 10px;
 }
 .wave svg {
   position: relative;
@@ -85,4 +86,7 @@ section {
   align-items: center;
   min-height: 70vh;
   padding:100px 20vw
+}
+#lastPage {
+  padding: 0px;
 }

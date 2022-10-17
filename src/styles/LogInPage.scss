@@ -1,8 +1,11 @@
 $image1: "src/assets";
 .welcome {
   display: block;
-  background-color:aqua;
+  background-color: #FEF9EF;
   padding-top: 1px;
+}
+body {
+  background-color: #FEF9EF;
 }
 .statement {
   background-image: url('~@/assets/pexels-monstera-5384623.jpg');
@@ -26,6 +29,11 @@ $image1: "src/assets";
 .mediumFont {
   color: rgb(14, 162, 242);
   font-size: large;
+}
+.logInBackground {
+  height: 100vh;
+  padding-top: 1px;
+  background: #FEF9EF;
 }
 .divRows {
   display: flex;
