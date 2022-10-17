@@ -30,18 +30,29 @@ $lightBlue: rgb(97, 150, 224);
 .alt-text-color {
   color: aquamarine;
 }
-.mediumFont {
+.largeFont + p {
   font-size: large;
+}
+#largeCity {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
 }
 .divRows {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  div {
+  div{
     margin-top: 10px;
-    width: 50vw;
   }
+}
+.splitFocusDiv {
+  margin-top: 10px;
+  width: 50vw;
+}
+.fullFocusDiv {
+  width: 100vw;
 }
 .darkBackground {
   background: $darkBlue;

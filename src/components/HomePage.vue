@@ -2,9 +2,9 @@
   <main>
     <section class="darkBackground">
       <div class="divRows">
-        <div>
+        <div class="splitFocusDiv">
           <h2 class="fadeIn largeFont alt-text-color">Powerful together</h2>
-          <p class="mediumFont">A chat platform made for empowerment</p>
+          <p>A chat platform made for empowerment</p>
         </div>
         <div>
           <img id="togetherImage" src="@/assets/pexels-monstera-5384623.jpg" />
@@ -26,13 +26,12 @@
     </section>
     <section class="lightBackground">
       <div class="divRows">
-        <div>
+        <div class="fullFocusDiv">
           <h2 class="fadeIn largeFont alt-text-color">
             A disconected World is no world at all
           </h2>
-          <p class="mediumFont">
-            EM-Chat is here to direct the future of change.
-          </p>
+          <p>EM-Chat is here to direct the future of change.</p>
+          <img id="largeCity" src="@/assets/pexels-lukas-kloeppel-466685.jpg" />
         </div>
       </div>
     </section>
